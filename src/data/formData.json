@@ -1,0 +1,20 @@
+{
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "validation": "^[A-Za-z]+$"
+    },
+    {
+      "type": "number",
+      "label": "Age",
+      "min_value": 0,
+      "max_value": 120
+    },
+    {
+      "type": "dropdown",
+      "label": "Country",
+      "options": ["Ukraine", "USA", "Canada", "UK"]
+    }
+  ]
+}
